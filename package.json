@@ -1,0 +1,41 @@
+{
+  "name": "shatterjs",
+  "version": "1.0.0",
+  "description": "Decompose JavaScript files into their fundamental components: shebang, header, body, and footer.",
+  "type": "module",
+  "main": "./src/index.mjs",
+  "files": [
+    "./src"
+  ],
+  "lawfulgood":
+  { 
+    "quickjs":{
+      "path":"./src",
+      "mast":"./mast.txt"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexstevovich/shatterjs.git"
+  },
+  "keywords": [
+    "parser",
+    "javascript",
+    "comments",
+    "shebang",
+    "header",
+    "footer",
+    "license",
+    "code-analysis",
+    "formatter",
+    "source-code"
+  ],
+  "scripts": {
+    "test": "node ./test/index.test.mjs",
+    "zord": "filezord",
+    "preamble": "lawfulgood"
+
+  },
+  "author": "Alex Stevovich <alex.stevovich@gmail.com>",
+  "license": "Apache-2.0"
+}
