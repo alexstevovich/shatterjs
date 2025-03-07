@@ -25,6 +25,8 @@ I have made the functionality as robust as I could currently foresee to accompli
 - The abstract nature of how documents are decomposed could lead to a rapidly evolving API that may not be compatible with current versions.  
 - I will release a new major version for each breaking change, following a period of evaluation on the current `1.0.0` version.
 
+**Note:** Use in production environments with caution due to potential structural changes in future major versions
+
 ----------
 
 ## 📦 Installation
